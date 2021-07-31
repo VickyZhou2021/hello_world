@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FDFDFD"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/TableLayout_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/本科生登录"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/综合性最强的福大校内APP"
+            android:textColor="#c0c0c0"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Edit_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:autofillHints="@string/请输入教务处账号"
+            android:hint="@string/请输入教务处账号"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/Edit_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:autofillHints="@string/请输入教务处密码"
+            android:hint="@string/请输入教务处密码"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/Bu_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="#00ff00"
+            android:text="@string/登录"
+            android:textColor="#ffffff"
+            app:backgroundTint="#4CAF50" />
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/Bu_2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="@string/研究生登录"
+                android:textColor="#000000"
+                app:backgroundTint="#ffffff" />
+
+            <Button
+                android:id="@+id/Bu_3"
+                android:layout_width="502dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="@string/游客登录"
+                android:textColor="#00ff00"
+                app:backgroundTint="#ffffff" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/text_3"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="@string/代表同意用户协议和隐私政策" />
+
+    </TableLayout>
+
+</LinearLayout>

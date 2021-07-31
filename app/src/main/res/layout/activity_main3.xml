@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/text_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/我的"
+        android:textSize="32sp" />
+
+    <TableRow>
+
+        <ImageButton
+            android:id="@+id/img_6"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:src="@drawable/img02" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/游客"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/text_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="@string/这是一条签名"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/text_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="@string/guest"
+        android:textSize="32sp" />
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/text_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_2021_1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/_1"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/img_7"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/img01" />
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/img_8"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="-40dp"
+            android:src="@drawable/p3" />
+
+        <ImageButton
+            android:id="@+id/img_9"
+            android:layout_width="98dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="-40dp"
+            android:layout_marginRight="70dp"
+            android:src="@drawable/p6" />
+
+        <ImageView
+            android:id="@+id/img_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="-120dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/p7" />
+
+    </TableRow>
+
+
+</TableLayout>

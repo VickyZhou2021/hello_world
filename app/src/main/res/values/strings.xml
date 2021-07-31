@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AsFZU</string>
+    <string name="我的">我的</string>
+    <string name="本科生登录">本科生登录</string>
+    <string name="综合性最强的福大校内APP">综合性最强的福大校内APP</string>
+    <string name="请输入教务处账号">请输入教务处账号</string>
+    <string name="请输入教务处密码">请输入教务处密码</string>
+    <string name="登录">登录</string>
+    <string name="研究生登录">研究生登录</string>
+    <string name="游客登录">游客登录</string>
+    <string name="代表同意用户协议和隐私政策">登录即代表同意用户协议和隐私政策</string>
+    <string name="工具箱">工具箱</string>
+    <string name="游客">游客</string>
+    <string name="这是一条签名">这是一条签名</string>
+    <string name="guest">guest</string>
+    <string name="_2021_1">2021年1学期</string>
+    <string name="_1">第1周</string>
+</resources>

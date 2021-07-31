@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/text_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="48sp"
+        android:text="@string/工具箱"/>
+
+    <ImageView
+        android:id="@+id/img_1"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/p1"/>
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:src="@drawable/p2"/>
+
+    <TableRow>
+        <ImageView
+            android:id="@+id/img_3"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/p3"/>
+        <ImageView
+            android:id="@+id/img_4"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/p4"/>
+
+        <ImageButton
+            android:id="@+id/img_5"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/p5" />
+
+    </TableRow>
+
+</TableLayout>
