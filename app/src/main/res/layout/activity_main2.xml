@@ -15,35 +15,57 @@
         android:textSize="48sp"
         android:text="@string/工具箱"/>
 
-    <ImageView
-        android:id="@+id/img_1"
-        android:layout_width="wrap_content"
-        android:layout_height="150dp"
-        android:src="@drawable/p1"/>
+    <HorizontalScrollView>
+        <LinearLayout android:layout_width="wrap_content"
+            android:id="@+id/toolbar_items" android:paddingBottom="7.0dip"
+            android:orientation="horizontal" android:layout_height="wrap_content"
+            android:paddingTop="7.0dip">
+            <ImageView
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:src="@drawable/tool_case"/>
+            <ImageView
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:src="@drawable/tool_case"/>
+            <ImageView
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:src="@drawable/tool_case"/>
+            <ImageView
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:src="@drawable/tool_case"/>
+        </LinearLayout>
+    </HorizontalScrollView>
 
     <ImageView
         android:id="@+id/img_2"
         android:layout_width="wrap_content"
-        android:layout_height="350dp"
-        android:src="@drawable/p2"/>
+        android:layout_height="300dp"
+        android:src="@drawable/p2" />
 
-    <TableRow>
+    <TableRow android:layout_marginBottom="0dp">
         <ImageView
             android:id="@+id/img_3"
-            android:layout_width="140dp"
-            android:layout_height="wrap_content"
-            android:src="@drawable/p3"/>
+            android:layout_width="135dp"
+            android:layout_height="100dp"
+            android:src="@drawable/lecture"/>
         <ImageView
             android:id="@+id/img_4"
-            android:layout_width="140dp"
-            android:layout_height="wrap_content"
-            android:src="@drawable/p4"/>
+            android:layout_width="135dp"
+            android:layout_height="100dp"
+            android:src="@drawable/tool_case"/>
 
         <ImageButton
             android:id="@+id/img_5"
-            android:layout_width="140dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/p5" />
+            android:layout_width="135dp"
+            android:layout_height="100dp"
+            android:src="@drawable/person" />
 
     </TableRow>
 
